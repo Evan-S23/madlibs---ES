@@ -1,3 +1,8 @@
 public class main {
-  pass
+  public static void main(String arg[]){
+    adj = adjective.get_adjective();
+    noun = noun.noun();
+    number = (new numbers()).check();
+    
+  }
 }
