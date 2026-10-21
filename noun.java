@@ -2,10 +2,11 @@ import java.util.Scanner;
 
 public class noun
 {
-    public static String getNoun(Scanner noun_input)
-    {
-        System.out.print(" Noun: ");
-        return noun_input.nextLine();
+    public static String getNoun() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter an noun: ");
+        String noun = scanner.nextLine();
+        return noun;
     }
 }
 
