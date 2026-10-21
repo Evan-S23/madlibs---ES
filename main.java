@@ -1,6 +1,6 @@
 public class main {
   public static void main(String arg[]){
-    adj = adjective.get_adjective();
+    adj = adjective.getAdjective();
     noun = noun.noun();
     number = (new numbers()).check();
     
