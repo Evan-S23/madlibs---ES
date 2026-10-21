@@ -1,8 +1,8 @@
 public class main {
   public static void main(String arg[]){
-    adj = adjective.getAdjective();
-    noun = noun.noun();
-    number = (new numbers()).check();
+    String adj = adjective.getAdjective();
+    String noun = noun.getNoun();
+    int number = (new numbers()).check();
     
   }
 }
