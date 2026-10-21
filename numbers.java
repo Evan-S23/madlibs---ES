@@ -1,8 +1,10 @@
 import java.util.Scanner;
 public class numbers{
-    Scanner cb = new Scanner(System.in);
     public numbers(){}
-    public int check(String n){
+    public int check(){
+        System.out.println("Input a number");
+        Scanner cb = new Scanner(System.in);
+        String n =cb.nextLine();
         String temp = n;
         int thing = 1;
         Boolean pass = false;
@@ -17,5 +19,8 @@ public class numbers{
             }
         }
         return thing;
+    }
+    public String toString(){
+        return "dumb dog";
     }
 }
