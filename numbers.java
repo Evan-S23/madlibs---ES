@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public class numbers{
-    
-    public numbers(){}
+    public numbers() {}
     public int check(){
         /*creates the initial input */
         System.out.print("Enter an integer: ");
@@ -11,12 +10,12 @@ public class numbers{
         int thing = 1;
         Boolean pass = false;
         /*only returns a value when the inputed string can be converted to an int */
-        while(pass == false){
-            try{
+        while(pass == false) {
+            try {
                 thing = Integer.parseInt(temp);
                 pass = true;
             }
-            catch(NumberFormatException e){
+            catch(NumberFormatException e) {
                 System.out.println("Enter a valid number");
                 temp = cb.nextLine();
             }
@@ -24,7 +23,7 @@ public class numbers{
         return thing;
     }
     /*to dissuade poor programming in main */
-    public String toString(){
-        return "dumb dog";
+    public String toString() {
+        return "dumb dog"; // funny funny guy
     }
 }
