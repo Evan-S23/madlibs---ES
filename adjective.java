@@ -6,6 +6,4 @@ public class adjective {
         String adjective = scanner.nextLine();
         return adjective;
     }
-    public static void main(String[] args) {
-        String result = getAdjective();
 }
