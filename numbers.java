@@ -4,7 +4,7 @@ public class numbers{
     public numbers(){}
     public int check(){
         /*creates the initial input */
-        System.out.println("Input a number");
+        System.out.print("Enter an integer: ");
         Scanner cb = new Scanner(System.in);
         String n =cb.nextLine();
         String temp = n;
