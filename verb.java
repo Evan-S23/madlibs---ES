@@ -6,6 +6,4 @@ public class verb {
         String verb = scanner.nextLine();
         return verb;
     }
-    public static void main(String[] args) {
-        String result = getVerb();
 }
