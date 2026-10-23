@@ -5,7 +5,7 @@ public class picker {
             return"A @ $ swooped in to ^ my bed # times.";
         }
         else if(choice == 2){
-            return "Suddenly out of nowhere, a wild $ decided to ^ the cheese!";
+            return "Yesterday, I met a @ $ who was # years old and loved to ^.";
         }
         else if(choice == 3){
             return "It's always super @ to watch the fighting and chaos unfold.";
