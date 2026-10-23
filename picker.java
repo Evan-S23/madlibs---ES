@@ -11,7 +11,7 @@ public class picker {
             return "I like to ^ for # hours every day until I meet a $ who's not @ at all.";
         }
         else if(choice == 4){
-            return  "To put an end to the madness, you have to ^ a @ $ with # scales.";
+            return  "Tomorrow I have plans with a $ to ^ at the park until # minutes past the @ sunset.";
         }
         return "error";
     }
