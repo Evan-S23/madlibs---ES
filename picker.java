@@ -1,6 +1,6 @@
 public class picker {
     public picker(){}
-    public String choice(){
+    public static String choice(){
         int choice = (int)(Math.random()*4+1);
         if(choice == 1){
             return"The @ $ likes to ^ when it sees exactly # pieces of cheese.";
