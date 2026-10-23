@@ -1,5 +1,4 @@
 public class picker {
-    public picker(){}
     public static String choice(){
         int choice = (int)(Math.random()*4+1);
         if(choice == 1){
