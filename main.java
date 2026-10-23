@@ -4,6 +4,6 @@ public class main {
     String usedVerb = verb.getVerb();
     String usedAdjective = adjective.getAdjective();
     int usedNumber = (new numbers()).check();
-    System.out.print(madlib.createMadlib(picker.choice(), usedNoun, usedVerb, usedAdjective, usedNumber);
+    System.out.print(madlib.createMadlib(picker.choice(), usedNoun, usedVerb, usedAdjective, usedNumber));
   }
 }
