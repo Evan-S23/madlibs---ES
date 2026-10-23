@@ -4,9 +4,8 @@ public class madlib {
     String withNoun = base.replace("$", noun);
     String withVerb = withNoun.replace("^", verb);
     String withAdj = withVerb.replace("@", adj);
-    String completed = withAdj.replace("#", num);
+    String completed = withAdj.replace("#", Integer.toString(num));
 
     return completed;
   }
 }
-    
