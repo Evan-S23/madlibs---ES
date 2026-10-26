@@ -1,18 +1,22 @@
 public class picker {
-    public static String choice() {
-        int choice = (int)(Math.random()*4 + 1);
-        if(choice == 1) {
-            return"A @ $ swooped in to ^ my bed # times.";
+    public picker(){}
+    public String choice(){
+        /*creates a random number between 1 and 4*/
+        int choice = (int)(Math.random()*4+1);
+        /*prints the madlib corresponding to the number*/
+        if(choice == 1){
+            return"The @ $ likes to ^ when it sees exactly # pieces of cheese.";
         }
-        else if(choice == 2) {
-            return "Yesterday, I met a @ $ who was # years old and loved to ^.";
+        else if(choice == 2){
+            return "Suddenly out of nowhere, a wild $ decided to ^ the cheese!";
         }
-        else if(choice == 3) {
-            return "I used to ^ for # hours every day until I met a $ who wasn't @ at all.";
+        else if(choice == 3){
+            return "It's always super @ to watch the fighting and chaos unfold.";
         }
-        else if(choice == 4) {
-            return  "Tomorrow I have plans with a $ to ^ at the park until # minutes past the @ sunset.";
+        else if(choice == 4){
+            return  "To put an end to the madness, you have to ^ a @ $ with # scales.";
         }
+        /*to prevent errors in compilation*/
         return "error";
     }
 }
