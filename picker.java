@@ -8,7 +8,7 @@ public class picker {
             return "Yesterday, I met a @ $ who was # years old and loved to ^.";
         }
         else if(choice == 3) {
-            return "I like to ^ for # hours every day until I meet a $ who's not @ at all.";
+            return "I used to ^ for # hours every day until I met a $ who wasn't @ at all.";
         }
         else if(choice == 4) {
             return  "Tomorrow I have plans with a $ to ^ at the park until # minutes past the @ sunset.";
